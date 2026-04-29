@@ -134,7 +134,7 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
   cursor: default;
   user-select: none;
 }
