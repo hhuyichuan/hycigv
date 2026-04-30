@@ -1,0 +1,16 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --igv-orange: #F97B5A;
+  --igv-orange-light: #FDEAE4;
+  --igv-orange-hover: #f06a45;
+  --text-primary: #1a1a1a;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --border: #e5e7eb;
+  --white: #ffffff;
+}
