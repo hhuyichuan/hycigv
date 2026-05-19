@@ -37,7 +37,7 @@ function IconDiscord({ size = 22 }: { size?: number }) {
 function IconSteam({ size = 22 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24">
-      <path d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.718L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0z" fill="rgba(255,255,255,0.82)" />
+      <path d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.718L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0z" fill="#1b2838" />
     </svg>
   )
 }
@@ -45,7 +45,7 @@ function IconSteam({ size = 22 }: { size?: number }) {
 function IconApple({ size = 22 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24">
-      <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701z" fill="rgba(255,255,255,0.88)" />
+      <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701z" fill="#000" />
     </svg>
   )
 }
@@ -53,7 +53,7 @@ function IconApple({ size = 22 }: { size?: number }) {
 function IconX({ size = 20 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24">
-      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.259 5.63L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z" fill="rgba(255,255,255,0.85)" />
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.259 5.63L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z" fill="#000" />
     </svg>
   )
 }
@@ -61,8 +61,8 @@ function IconX({ size = 20 }: { size?: number }) {
 function IconEmail({ size = 20 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
-      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="rgba(249,123,90,0.9)" strokeWidth="1.8" />
-      <polyline points="22,6 12,13 2,6" stroke="rgba(249,123,90,0.9)" strokeWidth="1.8" />
+      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="#6b7280" strokeWidth="1.8" />
+      <polyline points="22,6 12,13 2,6" stroke="#6b7280" strokeWidth="1.8" />
     </svg>
   )
 }
@@ -144,7 +144,7 @@ function RightPanel({ state }: { state: DemoState }) {
   return (
     <div className={styles.rightPanel}>
       <a className={styles.sellerLink}>
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <circle cx="12" cy="12" r="10" />
           <path d="M12 8v4l3 3" />
         </svg>
@@ -166,7 +166,7 @@ function RightPanel({ state }: { state: DemoState }) {
             <Divider text="其他登录方式" />
             <OAuthGrid />
             <Divider text="Or Verification code login" />
-            <LastLoginBanner icon={<IconGoogle size={15} />} method="Google" />
+            <LastLoginBanner icon={<IconGoogle size={16} />} method="Google" />
             <EmailForm />
           </>
         )}
@@ -176,7 +176,7 @@ function RightPanel({ state }: { state: DemoState }) {
             <Divider text="其他登录方式" />
             <OAuthGrid />
             <Divider text="Or Verification code login" />
-            <LastLoginBanner icon={<IconEmail size={14} />} method="Email" />
+            <LastLoginBanner icon={<IconEmail size={15} />} method="Email" />
             <EmailForm />
           </>
         )}
@@ -194,24 +194,24 @@ function DemoSwitcher({
 }) {
   return (
     <div className={styles.demoSwitcher}>
-      <div className={styles.dsTitle}>UI 状态预览</div>
+      <div className={styles.dsTitle}>🎛 UI 状态预览</div>
       <button
         className={`${styles.dsBtn} ${state === 'new' ? styles.dsBtnActive : ''}`}
         onClick={() => setState('new')}
       >
-        无登录记录
+        🆕 无登录记录
       </button>
       <button
         className={`${styles.dsBtn} ${state === 'third-party' ? styles.dsBtnActive : ''}`}
         onClick={() => setState('third-party')}
       >
-        上次：第三方登录（Google）
+        🔑 上次：第三方登录（Google）
       </button>
       <button
         className={`${styles.dsBtn} ${state === 'email' ? styles.dsBtnActive : ''}`}
         onClick={() => setState('email')}
       >
-        上次：邮箱登录
+        📧 上次：邮箱登录
       </button>
     </div>
   )

@@ -1,17 +1,23 @@
 import type { Metadata } from 'next'
-import { Syne, Figtree } from 'next/font/google'
+import { DM_Sans, Space_Grotesk, DM_Mono } from 'next/font/google'
 import './globals.css'
 
-const syne = Syne({
+const dmSans = DM_Sans({
   subsets: ['latin'],
-  weight: ['400', '600', '700', '800'],
-  variable: '--font-syne',
+  weight: ['300', '400', '500', '600'],
+  variable: '--font-dm-sans',
 })
 
-const figtree = Figtree({
+const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
-  weight: ['400', '500', '600'],
-  variable: '--font-figtree',
+  weight: ['500', '600', '700'],
+  variable: '--font-space-grotesk',
+})
+
+const dmMono = DM_Mono({
+  subsets: ['latin'],
+  weight: ['400', '500'],
+  variable: '--font-dm-mono',
 })
 
 export const metadata: Metadata = {
@@ -20,7 +26,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${syne.variable} ${figtree.variable}`}>
+    <html lang="en" className={`${dmSans.variable} ${spaceGrotesk.variable} ${dmMono.variable}`}>
       <body>{children}</body>
     </html>
   )

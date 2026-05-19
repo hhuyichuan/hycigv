@@ -5,22 +5,12 @@
 }
 
 :root {
-  /* Brand */
   --igv-orange: #F97B5A;
+  --igv-orange-light: #FDEAE4;
   --igv-orange-hover: #f06a45;
-  --igv-orange-glow: rgba(249, 123, 90, 0.18);
-  --igv-orange-subtle: rgba(249, 123, 90, 0.08);
-  --igv-orange-border: rgba(249, 123, 90, 0.22);
-
-  /* Dark theme */
-  --igv-bg: #09090f;
-  --igv-surface: #111119;
-  --igv-card-bg: rgba(255, 255, 255, 0.04);
-  --igv-card-border: rgba(255, 255, 255, 0.09);
-  --igv-border: rgba(255, 255, 255, 0.08);
-
-  /* Typography */
-  --igv-text: #f0f0f8;
-  --igv-text-secondary: #9090b0;
-  --igv-text-muted: #5c5c7a;
+  --text-primary: #1a1a1a;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --border: #e5e7eb;
+  --white: #ffffff;
 }
